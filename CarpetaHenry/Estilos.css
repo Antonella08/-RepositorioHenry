@@ -1,0 +1,155 @@
+h1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header, section, footer, aside, article {
+    display: block;
+}
+
+
+body {
+    text-align: center;
+
+} 
+
+.agrupar {
+    width: 1250px;
+    background: rgb(180, 178, 178);
+    border: 1px solid black;
+    margin:  15px auto;
+    
+}
+
+.cabecera{
+    background: grey;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.menu{
+    background: burlywood;
+    padding: 20px;
+    text-align: left;
+    margin:unset;
+
+}
+
+
+.seccion{
+    margin: 20px;
+    width: 800px;
+    float: left;
+}
+
+.columna{
+    width: 90px;
+    float: left;
+    margin: 20px 0;
+}
+
+.columna blockquote{
+    border: 1px solid  #999;
+    margin-bottom: 50px;
+    background: #fffbcc;
+    padding: 50px;
+    width: 250px;
+    margin: 10px;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background: grey;
+}
+
+article{
+    background: #fffbcc;
+    padding: 20px;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+}   
+
+article footer{
+    text-align: right;
+}
+
+time{
+    color: #999;
+}
+
+img{
+    width: 100px;
+}
+
+aside{
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 27px;
+    margin: 20px;
+    background: blanchedalmond;
+    
+}
+
+aside:hover{
+    border: 1px solid black;
+}
+
+
+article:hover {
+    border: 1px solid black;
+}
+
+.grid > div:hover{
+    border: 1px solid black
+}
+
+.grid-1 > div:hover{
+    border: 1px solid black
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+    grid-template-rows: minmax(100px, auto);
+      
+}
+
+.grid > div{
+    background: coral;
+    padding: 1px;
+}
+
+
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 100px;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+
+.grid-1 > div{
+    border: 1px solid black;
+    margin: 7px;
+    padding: 10px;
+    
+}
+
+.elemento-1{
+    grid-column: 1/3;
+    align-self: end;
+   
+}
+
+.elemento{
+    align-self: center;
+}
